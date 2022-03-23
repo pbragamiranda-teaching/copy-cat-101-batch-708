@@ -1,0 +1,48 @@
+.card-product-top-image {
+	width: 50%;
+	height: 150px;
+	position: relative;
+	object-fit: cover;
+	object-position: center;
+	}
+
+.card-product-top {
+	display:  flex;
+	justify-content: space-between;
+}
+
+.card-product {
+	background-color: white;
+	margin: auto;
+	width: 400px;
+	border-radius: 8px;
+	padding: 16px;
+}
+
+.icon {
+	position: absolute;
+	color: red;
+	top: 8px;
+	left: 8px;
+}
+
+.card-product-middle {
+	height: 120px;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+	margin: 16px 0px;
+}
+
+.card-product-bottom {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-product-bottom img {
+	object-fit: cover;
+	object-position: center;
+	height: 80px;
+	flex-grow: 1;
+	margin: 0 8px;
+}
